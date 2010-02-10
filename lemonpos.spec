@@ -1,8 +1,8 @@
 Summary:	Open Source point of sale for Linux
 Name:		lemonpos
-Version: 	0.8
+Version: 	0.9.1
 Release: 	%mkrel 1
-Source0: 	http://downloads.sourceforge.net/lemonpos/%name-persa-%version.tar.bz2
+Source0: 	http://downloads.sourceforge.net/lemonpos/%name-%version.tar.bz2
 License: 	GPLv2+
 Group: 		Office
 Url: 		http://lemonpos.sourceforge.net/
@@ -37,7 +37,7 @@ parallel port ticket printer, and a barcode scanner.
 #--------------------------------------------------------------------
 
 %prep
-%setup -q -n persa
+%setup -q -n %{name}
 
 %build
 %cmake_kde4
