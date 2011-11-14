@@ -1,8 +1,8 @@
 Summary:	Open Source point of sale for Linux
 Name:		lemonpos
-Version: 	0.9.2
+Version: 	0.9.3
 Release: 	%mkrel 1
-Source0: 	http://downloads.sourceforge.net/lemonpos/%name-%version.tar.bz2
+Source0: 	http://downloads.sourceforge.net/lemonpos/%{name}-%{version}.tar.bz2
 License: 	GPLv2+
 Group: 		Office
 Url: 		http://lemonpos.sourceforge.net/
@@ -26,13 +26,13 @@ parallel port ticket printer, and a barcode scanner.
 %files -f lemon.lang
 %defattr(-,root,root)
 %doc README INSTALL NOTES USING
-%_kde_bindir/*
-%_kde_datadir/applications/kde4/*.desktop
-%_kde_appsdir/lemon
-%_kde_appsdir/squeeze
-%_kde_configdir/lemonrc
-%_kde_datadir/config.kcfg/*.kcfg
-%_kde_iconsdir/*/*/*/*
+%{_kde_bindir}/*
+%{_kde_datadir}/applications/kde4/*.desktop
+%{_kde_appsdir}/lemon
+%{_kde_appsdir}/squeeze
+%{_kde_configdir}/lemonrc
+%{_kde_datadir}/config.kcfg/*.kcfg
+%{_kde_iconsdir}/*/*/*/*
 
 #--------------------------------------------------------------------
 
