@@ -47,7 +47,11 @@ parallel port ticket printer, and a barcode scanner.
 rm -rf %{buildroot}
 %{makeinstall_std} -C build
 
-%find_lang lemon lemon squeeze
+%if %{mdvver} <= 201100
+    %find_lang lemon lemon squeeze
+%else
+    %find_lang lemon squeeze lemon.lang
+%endif
 
 %clean
 rm -rf %{buildroot}
