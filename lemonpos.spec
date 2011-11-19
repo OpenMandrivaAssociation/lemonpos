@@ -1,13 +1,14 @@
 Summary:	Open Source point of sale for Linux
 Name:		lemonpos
-Version: 	0.9.3
-Release: 	%mkrel 1
-Source0: 	http://downloads.sourceforge.net/lemonpos/%{name}-%{version}.tar.bz2
-License: 	GPLv2+
-Group: 		Office
-Url: 		http://lemonpos.sourceforge.net/
-BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: 	kdelibs4-devel
+Version:	0.9.3
+Release:	%mkrel 1
+Source0:	http://downloads.sourceforge.net/lemonpos/%{name}-%{version}.tar.bz2
+License:	GPLv2+
+Group:		Office
+Url:		http://lemonpos.sourceforge.net/
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	kdelibs4-devel
+BuildRequires: 	automoc4
 Requires:	qt4-database-plugin-mysql
 
 %description
