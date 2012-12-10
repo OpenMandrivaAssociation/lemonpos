@@ -56,3 +56,35 @@ rm -rf %{buildroot}
 
 %clean
 rm -rf %{buildroot}
+
+
+%changelog
+* Sat Nov 19 2011 Andrey Bondrov <abondrov@mandriva.org> 0.9.3-1mdv2012.0
++ Revision: 731733
+- New version 0.9.3
+
+* Fri Aug 13 2010 Funda Wang <fwang@mandriva.org> 0.9.2-1mdv2011.0
++ Revision: 569376
+- update to new version 0.9.2
+
+* Wed Feb 10 2010 Funda Wang <fwang@mandriva.org> 0.9.1-1mdv2010.1
++ Revision: 503524
+- new version 0.9.1
+
+* Fri May 22 2009 Funda Wang <fwang@mandriva.org> 0.8-1mdv2010.0
++ Revision: 378603
+- New version 0.8
+
+* Tue Mar 10 2009 Funda Wang <fwang@mandriva.org> 0.7-1mdv2009.1
++ Revision: 353361
+- New version 0.7
+
+* Tue Feb 03 2009 Funda Wang <fwang@mandriva.org> 0.6.1-1mdv2009.1
++ Revision: 337014
+- new version 0.6.1
+
+* Mon Feb 02 2009 Funda Wang <fwang@mandriva.org> 0.6-1mdv2009.1
++ Revision: 336335
+- import lemonpos
+
+
