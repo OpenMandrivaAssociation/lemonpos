@@ -1,7 +1,7 @@
 Summary:	Open Source point of sale for Linux
 Name:		lemonpos
 Version:	0.9.3
-Release:	%mkrel 1
+Release:	2
 Source0:	http://downloads.sourceforge.net/lemonpos/%{name}-%{version}.tar.bz2
 License:	GPLv2+
 Group:		Office
