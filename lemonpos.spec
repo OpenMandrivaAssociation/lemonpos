@@ -5,7 +5,7 @@ Release:	2
 Source0:	http://downloads.sourceforge.net/lemonpos/%{name}-%{version}.tar.bz2
 License:	GPLv2+
 Group:		Office
-Url:		http://lemonpos.sourceforge.net/
+Url:		https://lemonpos.sourceforge.net/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	kdelibs4-devel
 BuildRequires: 	automoc4
