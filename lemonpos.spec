@@ -7,6 +7,7 @@ License:	GPLv2+
 Group:		Office
 Url:		https://lemonpos.sourceforge.net/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	make
 BuildRequires:	kdelibs4-devel
 BuildRequires: 	automoc4
 Requires:	qt4-database-plugin-mysql
